@@ -38,4 +38,4 @@ inputf= [float(i) for i in input]
 inputf = [input]
 input_predict = sc.transform(inputf)
 prediction = model.predict(input_predict)
-print("Prediction: 1 for Malignant 0 for Benign {}".format(prediction))
+print("Prediction: 1 for Malignant 0 for Benign :Result= {}".format(prediction))
